@@ -1,5 +1,7 @@
 '''
-@author:自动化84杨恺     last modified:2021-3-13
+@author:自动化84杨恺    
+last modified:2021-3-13 
+language:python
 '''
 import cv2 as cv
 import numpy as np
