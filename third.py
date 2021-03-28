@@ -61,7 +61,7 @@ def img_enhance(img1,img2,name):    #绘制增强后的图以及其对应的直�
     plt.ylim([0,10000])
     plt.savefig(name+"_enhanced_hist.jpg")
     plt.clf()
-
+    
 def img_hist(name):                 #绘制直方图以及均衡化之后的直方图
     for each in name:
         hist=cv.calcHist([read(each)],[0],None,[256],[0,256])
