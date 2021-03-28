@@ -12,7 +12,6 @@ def show(img,name="img"):
     cv.waitKey(0)
     cv.destroyAllWindows()
 
-    
 sift = cv.xfeatures2d.SIFT_create()            #提取sift特征，keypoint
 kp1, des1 = sift.detectAndCompute(img1, None)
 kp2, des2 = sift.detectAndCompute(img2, None)
