@@ -63,7 +63,7 @@ def Blur(img,size,method="Gaussion",sigma=1):        #滤波操作
         for j in range(N):
             dst[i][j]=Calculate(img,size,method,i,j,sigma)
     return dst
-    
+     
 if __name__ == "__main__":
     os.chdir("C:\\Users\\m\\Desktop\\第四次作业")
     
