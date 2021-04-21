@@ -7,7 +7,7 @@ import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 import os
-
+ 
 def show(img,name="img"):
     cv.imshow(name,img)
     cv.waitKey(0)
